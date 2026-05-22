@@ -1,7 +1,8 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import { computed } from "vue";
+import { useStore } from "vuex";
 </script>
 
 <template>
-  <HelloWorld />
+    <router-view></router-view>
 </template>
